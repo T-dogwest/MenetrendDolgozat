@@ -7,4 +7,6 @@ export class CreateMenetrendDto {
     to: string;
     @IsNotEmpty()
     time: string;
+    @IsNotEmpty()
+    start:string;
 }

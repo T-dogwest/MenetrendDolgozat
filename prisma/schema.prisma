@@ -14,6 +14,6 @@ model menetrend {
   from    String
   to      String
   time    String
-  
+  start String
 }
 
