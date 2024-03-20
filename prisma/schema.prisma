@@ -9,3 +9,11 @@ datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
+model menetrend {
+  id      Int      @id @default(autoincrement())
+  from    String
+  to      String
+  time    String
+  
+}
+
